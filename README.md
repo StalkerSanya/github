@@ -26,3 +26,16 @@ Next, you'll need to create a personal access token on GitHub so you have access
 
     var_dump($response);
     ```
+    The GitHub account and repository arguments can also be defined using the set methods:
+
+```php
+<?php
+    $response = $this
+        ->taskGitHubIssueAssignees('OJuJcqaYiX5uL72Ky')
+        ->setAccount('droath')
+        ->setRepository('robo-github')
+        ...
+        ->run();
+
+    var_dump($response);
+```
