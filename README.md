@@ -27,7 +27,11 @@ Next, you'll need to create a personal access token on GitHub so you have access
     var_dump($response);
     ```
 
+<<<<<<< HEAD
 I am Master. I am Major programer
 
 You are rab 1. And You are not major 
 
+=======
+I am rab 2 . And I am major
+>>>>>>> rab2
